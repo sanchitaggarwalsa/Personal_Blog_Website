@@ -1,0 +1,63 @@
+/*...................Sidebar...............*/
+main .sidebar{
+    background-color: rgb(231, 114, 99);
+}
+
+.site-content> .sidebar .category-list{
+    font-family: Abel, cursive;
+    font-style: bold;
+}
+
+
+.site-content> .sidebar .list-items{
+    background-color:rgb(116, 165, 168);
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.site-content> .sidebar .list-items a{
+    color: black;
+}
+
+.site-content .sidebar .popular-posts .post-content{
+    padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-posts h2{
+    padding-top: 8rem;
+
+}
+
+.site-content .sidebar .popular-posts .post-title a{
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter{
+    padding-top: 4rem;
+}
+
+.site-content .sidebar .newsletter .form-element{
+    padding: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .7rem;
+    font-family: Abel, cursive;
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter .form-btn{
+    border-radius: 0;
+    padding: .8rem 25%;
+    margin: 1rem 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/*...................Sidebar......close.........*/

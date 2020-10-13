@@ -1,0 +1,57 @@
+/*------------navbar----------------------*/
+.nav{
+    background-color:black;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    position: relative;
+}
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    list-style-type:none;
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: Bungee, cursive;
+    font-size: 1.3rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+    background-color: rgb(117, 115, 115);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0rem;
+    display: block;
+    font-family: Cabin, cursive;
+    font-size: 1.6rem;
+}
+
+.nav .social{
+    padding:1.4rem 0 ;
+}
+
+.nav .social i{
+    padding: 0 0.2rem;
+    font-size: 1rem;
+}
+
+.nav .social i:hover{
+    color:white;
+}
+/*------------navbar----------------------close*/

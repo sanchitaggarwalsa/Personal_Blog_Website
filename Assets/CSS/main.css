@@ -1,0 +1,35 @@
+/*------------Main Page-------------------------*/
+main .site-title{
+    background: url('../backImage/sanchit.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    backface-visibility: hidden;
+    
+    
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+main .site-title h1,h3{
+    margin: .3em;
+}
+
+main .site-title .btn{
+    margin: 1.8em;
+    background-color:rgb(238, 215, 5);
+    
+}
+
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+/*------------Main Page----------------------close*/

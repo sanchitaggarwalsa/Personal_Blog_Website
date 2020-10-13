@@ -1,0 +1,129 @@
+@import url('../CSS/fonts.css');
+@import url('../CSS/nav.css');
+@import url('../CSS/main.css');
+@import url('../CSS/blog.css');
+@import url('../CSS/sidebar.css');
+@import url('../CSS/footer.css');
+
+
+
+html,body{
+    margin:0%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+:root{
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    
+
+
+}
+/*------------------Global Styles----------*/
+
+a{
+    text-decoration: none;
+    color:#3f4954;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-family:Krona, cursive ;
+    font-size: 2.5rem;
+    
+}
+h2{
+    font-family: Krona, cursive;
+    font-size:1.5rem ;
+    text-overflow: unset;
+    
+    
+}
+h3{
+    font-family: Krona, cursive;
+    font-size: 1rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-style: Abel,cursive;
+    cursor: pointer;
+    outline: none;
+}
+
+p{
+    font-family: Antic;
+}
+
+strong{
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    width: 80%;
+  }
+
+/*------------------Global Styles----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------ViewPort less than or equal to 750px---time55:24--*/
+
+@media only screen and (max-width:750px){
+    .nav{
+        min-height: 30vh;
+    }
+    .nav.nav-menu, .nav.nav-items{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size:1rem ;
+    }
+    main .site-content{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        background-color: black;
+        display: inline;
+    }
+
+    
+   
+}
+
+
+
+
+/*-------ViewPort less than or equal to 750px------*/

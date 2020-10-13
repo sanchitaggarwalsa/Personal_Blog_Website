@@ -1,0 +1,24 @@
+@font-face{
+    font-family: Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf');
+}
+
+@font-face{
+    font-family: Bungee;
+    src: url('../fonts/Bungee_Shade/BungeeShade-Regular.ttf');
+}
+
+@font-face{
+    font-family: Cabin;
+    src: url('../fonts/Cabin_Sketch/CabinSketch-Regular.ttf');
+}
+
+@font-face{
+    font-family: Krona;
+    src: url('../fonts/Krona_One/KronaOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: Antic;
+    src: url('../fonts/Antic_Slab/AnticSlab-Regular.ttf');
+}
